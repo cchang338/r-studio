@@ -14,7 +14,7 @@ setwd("C:/Users/chris/Desktop/GT/APA MAP/Portland")
 #set Bing maps API key (https://msdn.microsoft.com/en-us/library/ff428642.aspx)
 BingMapsKey<-"AvJCPTU1_i2nkUhZlIAEqqPdJpsCi9vJ7gAWmkgDvKHarIwwbr5ZGfbijBrAoY3P"
 
-#get portland data
+#get portland data 
 
 portland_raw_jan<-read.csv("2018_01.csv", header=T,stringsAsFactors = F)
 portland_raw_feb<-read.csv("2018_02.csv", header=T,stringsAsFactors = F)
